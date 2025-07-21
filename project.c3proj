@@ -59,20 +59,25 @@
 	"uniqueId": "n17a7eu1eai",
 	"objectTypes": {
 		"items": [
-			"Bird",
+			"Bird1",
 			"BotPipe",
 			"TopPipe",
-			"Bg",
+			"Bg1",
 			"Touch",
 			"Score",
 			"Base",
 			"Restart",
-			"Sprite",
 			"Exit",
 			"GameOver",
 			"Pause",
 			"Browser",
-			"Unpause"
+			"Unpause",
+			"Bg3",
+			"Bg2",
+			"HGTS",
+			"Bird2",
+			"Bird3",
+			"message"
 		],
 		"subfolders": []
 	},
@@ -105,7 +110,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Flappy (NES) Music - Music C.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 833079376905943,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
