@@ -1,0 +1,146 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Lose",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 229381786045653
+		},
+		{
+			"eventType": "variable",
+			"name": "Pause",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 189179502006480
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bird",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 889296307313894
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "UI, Restart, Score, dll",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Cleaner",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [],
+					"sid": 320714937627036
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Score",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [],
+					"sid": 218381551359187
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "System",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "group",
+							"disabled": false,
+							"title": "Pause",
+							"description": "",
+							"isActiveOnStart": true,
+							"children": [],
+							"sid": 314855383789331
+						}
+					],
+					"sid": 540110203740258
+				},
+				{
+					"eventType": "group",
+					"disabled": false,
+					"title": "Background Scroll",
+					"description": "",
+					"isActiveOnStart": true,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-destroyed",
+									"objectClass": "TopPipe",
+									"sid": 807738277994652
+								}
+							],
+							"actions": [],
+							"sid": 427646876858467
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-destroyed",
+									"objectClass": "BotPipe",
+									"sid": 113232134358643
+								}
+							],
+							"actions": [],
+							"sid": 861873626724957
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-tick",
+									"objectClass": "System",
+									"sid": 772646983426985
+								}
+							],
+							"actions": [],
+							"sid": 732301833447496
+						}
+					],
+					"sid": 745136689730992
+				}
+			],
+			"sid": 487019780003810
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Kalah",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 419775313884970
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Kondisi Kalah",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [],
+			"sid": 543946828051622
+		}
+	],
+	"sid": 499349352015341
+}

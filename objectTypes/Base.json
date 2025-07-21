@@ -1,0 +1,29 @@
+{
+	"name": "Base",
+	"plugin-id": "TiledBg",
+	"sid": 691052059300104,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 756286251981195
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 850,
+		"height": 282,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"fileType": "image/png",
+		"imageSpriteId": 9355308,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}
