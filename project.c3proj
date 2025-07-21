@@ -15,6 +15,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
@@ -77,7 +84,11 @@
 			"HGTS",
 			"Bird2",
 			"Bird3",
-			"message"
+			"message",
+			"Sprite",
+			"Sprite2",
+			"BurungMerah",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -225,7 +236,7 @@
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
-		"fullscreenMode": "scale-inner",
+		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "low",
 		"viewportFit": "auto",
 		"backgroundColor": [

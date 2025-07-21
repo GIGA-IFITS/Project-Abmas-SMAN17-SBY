@@ -12,16 +12,6 @@
 			"sid": 229381786045653
 		},
 		{
-			"eventType": "variable",
-			"name": "Pause",
-			"type": "number",
-			"initialValue": "0",
-			"comment": "",
-			"isStatic": false,
-			"isConstant": false,
-			"sid": 189179502006480
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Bird",
@@ -61,17 +51,7 @@
 					"title": "System",
 					"description": "",
 					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "group",
-							"disabled": false,
-							"title": "Pause",
-							"description": "",
-							"isActiveOnStart": true,
-							"children": [],
-							"sid": 314855383789331
-						}
-					],
+					"children": [],
 					"sid": 540110203740258
 				},
 				{
@@ -80,44 +60,7 @@
 					"title": "Background Scroll",
 					"description": "",
 					"isActiveOnStart": true,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-destroyed",
-									"objectClass": "TopPipe",
-									"sid": 807738277994652
-								}
-							],
-							"actions": [],
-							"sid": 427646876858467
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "on-destroyed",
-									"objectClass": "BotPipe",
-									"sid": 113232134358643
-								}
-							],
-							"actions": [],
-							"sid": 861873626724957
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "every-tick",
-									"objectClass": "System",
-									"sid": 772646983426985
-								}
-							],
-							"actions": [],
-							"sid": 732301833447496
-						}
-					],
+					"children": [],
 					"sid": 745136689730992
 				}
 			],
